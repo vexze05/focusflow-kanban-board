@@ -1,16 +1,80 @@
-# React + Vite
+# FocusFlow - Kanban Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FocusFlow is a simple Kanban-style task management web application built using React and Vite.  
+It allows users to create tasks, move them between workflow stages, and track progress visually.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+• Create new tasks  
+• Move tasks between columns (To Do → In Progress → Done)  
+• Delete tasks  
+• Task priority labels (High, Medium, Low)  
+• Task statistics dashboard  
+• Local storage persistence (tasks remain after refresh)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Kanban Board Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application contains three workflow columns:
+
+• To Do – newly created tasks  
+• In Progress – tasks currently being worked on  
+• Done – completed tasks  
+
+Tasks can be moved between columns to represent progress.
+
+---
+
+## Technologies Used
+
+React  
+JavaScript  
+HTML  
+CSS  
+Vite
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/vexze05/focusflow-kanban-board.git
+
+2. Navigate to the project folder
+
+cd focusflow-kanban-board
+
+3. Install dependencies
+
+npm install
+
+4. Run the development server
+
+npm run dev
+
+The application will start on:
+
+http://localhost:5173
+
+---
+
+## Project Structure
+
+src  
+ ├── App.jsx  
+ ├── App.css  
+ ├── main.jsx  
+
+public  
+index.html  
+package.json  
+
+---
+
+## Author
+
+Animesh Kumar
